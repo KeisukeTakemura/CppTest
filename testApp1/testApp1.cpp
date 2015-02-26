@@ -46,7 +46,7 @@ int main(){
 	inputFile.read(fileImage, fileSize);
 
 //-------------ここまでファイル読み込み
-
+	//koui
 	Object* state = new Object[gStageWidth * gStageHeight]; //状態配列の確保
 	
 	initialize(state, gStageWidth, gStageHeight, fileImage); //ステージの初期化
